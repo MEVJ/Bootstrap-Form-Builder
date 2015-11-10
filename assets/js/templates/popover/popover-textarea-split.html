@@ -1,0 +1,4 @@
+<div class="form-group">
+  <label><%- label %></label>
+  <textarea class="field form-control"  rows="5" data-type="<%- type %>"  id='<%- name %>'><% for ( var i = 0; i < value.length ; i++ ) { %><%- value[i] %><% if (i < value.length - 1) { %><%- "\n" %><% } %><% } %></textarea>
+</div>
