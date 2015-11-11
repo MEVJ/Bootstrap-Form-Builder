@@ -85,7 +85,7 @@
           {
             "value": "btn-xs",
             "label": "Xtra Small",
-            "selected": true
+            "selected": false
           },
           {
             "value": "btn-sm",
@@ -95,6 +95,22 @@
           {
             "value": "btn-lg",
             "label": "Large",
+            "selected": false
+          }
+        ]
+      },
+      "buttonposition": {
+        "label": "Button Position",
+        "type": "select",
+        "value": [
+          {
+            "value": "pull-left",
+            "label": "Left",
+            "selected": true
+          },
+          {
+            "value": "pull-right",
+            "label": "Right",
             "selected": false
           }
         ]
@@ -207,6 +223,32 @@
           {
             "value": "btn-inverse",
             "label": "Inverse",
+            "selected": false
+          }
+        ]
+      },
+      "buttonsize": {
+        "label": "Button Size",
+        "type": "select",
+        "value": [
+          {
+            "value": null,
+            "label": "Default",
+            "selected": true
+          },
+          {
+            "value": "btn-xs",
+            "label": "Xtra Small",
+            "selected": false
+          },
+          {
+            "value": "btn-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "btn-lg",
+            "label": "Large",
             "selected": false
           }
         ]

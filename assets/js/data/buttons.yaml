@@ -67,7 +67,7 @@
           -
             value: btn-xs
             label: Xtra Small
-            selected: true
+            selected: false
           -
             value: btn-sm
             label:  Small
@@ -75,7 +75,19 @@
           -
             value: btn-lg
             label:  Large
-            selected: false      
+            selected: false
+    buttonposition:
+      label  : Button Position
+      type   : select
+      value  :
+          -
+            value: pull-left
+            label: Left
+            selected: true
+          -
+            value: pull-right
+            label: Right
+            selected: false
 -
   title  : Double Button
   fields :
@@ -162,4 +174,24 @@
           -
             value: btn-inverse
             label:  Inverse
+            selected: false
+    buttonsize:
+      label  : Button Size
+      type   : select
+      value  :
+          -
+            value:
+            label: Default
+            selected: true
+          -
+            value: btn-xs
+            label: Xtra Small
+            selected: false
+          -
+            value: btn-sm
+            label:  Small
+            selected: false
+          -
+            value: btn-lg
+            label:  Large
             selected: false
