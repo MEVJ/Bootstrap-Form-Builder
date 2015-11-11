@@ -168,9 +168,6 @@ form .popover form {
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
 }
-.form-control {
-    border-radius:0;
-  }
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }

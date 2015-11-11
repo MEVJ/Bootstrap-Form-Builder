@@ -1,6 +1,6 @@
 -
   title  : File Button
-  fields : 
+  fields :
     id:
       label  : ID / Name
       type   : input
@@ -11,7 +11,7 @@
       value  : File Button
 -
   title  : Single Button
-  fields : 
+  fields :
     id:
       label  : ID / Name
       type   : input
@@ -30,35 +30,55 @@
       value  :
           -
             value: btn-default
-            label: Default 
+            label: Default
             selected: false
           -
             value: btn-primary
-            label:  Primary 
+            label:  Primary
             selected: true
           -
-            value: btn-info 
-            label:  Info    
+            value: btn-info
+            label:  Info
             selected: false
           -
             value: btn-success
-            label:  Success 
+            label:  Success
             selected: false
           -
             value: btn-warning
-            label:  Warning 
+            label:  Warning
             selected: false
-          - 
-            value: btn-danger  
-            label:  Danger  
+          -
+            value: btn-danger
+            label:  Danger
             selected: false
           -
             value: btn-inverse
-            label:  Inverse 
+            label:  Inverse
             selected: false
+    buttonsize:
+      label  : Button Size
+      type   : select
+      value  :
+          -
+            value:
+            label: Default
+            selected: true
+          -
+            value: btn-xs
+            label: Xtra Small
+            selected: true
+          -
+            value: btn-sm
+            label:  Small
+            selected: false
+          -
+            value: btn-lg
+            label:  Large
+            selected: false      
 -
   title  : Double Button
-  fields : 
+  fields :
     id:
       label  : Button 1 ID / Name
       type   : input
@@ -77,31 +97,31 @@
       value  :
           -
             value: btn-default
-            label: Default 
+            label: Default
             selected: false
           -
             value: btn-primary
-            label:  Primary 
+            label:  Primary
             selected: false
           -
-            value: btn-info 
-            label:  Info    
+            value: btn-info
+            label:  Info
             selected: false
           -
             value: btn-success
-            label:  Success 
+            label:  Success
             selected: true
           -
             value: btn-warning
-            label:  Warning 
+            label:  Warning
             selected: false
-          - 
-            value: btn-danger  
-            label:  Danger  
+          -
+            value: btn-danger
+            label:  Danger
             selected: false
           -
             value: btn-inverse
-            label:  Inverse 
+            label:  Inverse
             selected: false
     id2:
       label  : Button 2 ID / Name
@@ -117,29 +137,29 @@
       value  :
           -
             value: btn-default
-            label: Default 
+            label: Default
             selected: false
           -
             value: btn-primary
-            label:  Primary 
+            label:  Primary
             selected: false
           -
-            value: btn-info 
-            label:  Info    
+            value: btn-info
+            label:  Info
             selected: false
           -
             value: btn-success
-            label:  Success 
+            label:  Success
             selected: false
           -
             value: btn-warning
-            label:  Warning 
+            label:  Warning
             selected: false
-          - 
-            value: btn-danger  
-            label:  Danger  
+          -
+            value: btn-danger
+            label:  Danger
             selected: true
           -
             value: btn-inverse
-            label:  Inverse 
+            label:  Inverse
             selected: false

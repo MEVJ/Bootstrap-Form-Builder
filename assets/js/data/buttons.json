@@ -72,6 +72,32 @@
             "selected": false
           }
         ]
+      },
+      "buttonsize": {
+        "label": "Button Size",
+        "type": "select",
+        "value": [
+          {
+            "value": null,
+            "label": "Default",
+            "selected": true
+          },
+          {
+            "value": "btn-xs",
+            "label": "Xtra Small",
+            "selected": true
+          },
+          {
+            "value": "btn-sm",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "btn-lg",
+            "label": "Large",
+            "selected": false
+          }
+        ]
       }
     }
   },
