@@ -3,7 +3,7 @@ define(function(require) {
   , prependedtext            = require('text!templates/snippet/prependedtext.html')
   , search                   = require('text!templates/snippet/searchinput.html')
   , textinput                = require('text!templates/snippet/textinput.html')
-  , emailinput                = require('text!templates/snippet/emailinput.html')
+  , emailinput               = require('text!templates/snippet/emailinput.html')
   , appendedcheckbox         = require('text!templates/snippet/appendedcheckbox.html')
   , appendedtext             = require('text!templates/snippet/appendedtext.html')
   , filebutton               = require('text!templates/snippet/filebutton.html')

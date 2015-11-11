@@ -25,11 +25,6 @@
         "type": "select",
         "value": [
           {
-            "value": "input-mini",
-            "label": "Mini",
-            "selected": false
-          },
-          {
             "value": "input-sm",
             "label": "Small",
             "selected": false
@@ -37,21 +32,11 @@
           {
             "value": "input-default",
             "label": "Medium",
-            "selected": false
+            "selected": true
           },
           {
             "value": "input-lg",
             "label": "Large",
-            "selected": false
-          },
-          {
-            "value": "input-xlarge",
-            "label": "Xlarge",
-            "selected": true
-          },
-          {
-            "value": "input-xxlarge",
-            "label": "Xxlarge",
             "selected": false
           }
         ]
